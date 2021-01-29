@@ -1,0 +1,10 @@
+*.g.cs
+*.ide*
+*.dll
+*.pdb
+*.json
+*.txt
+*.cache
+*.ide
+*.dtbcache
+*.suo

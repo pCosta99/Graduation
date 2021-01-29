@@ -1,0 +1,63 @@
+* {
+    dark-primary-color: #616161;
+    default-primary-color: #9E9E9E;
+    text-primary-color: #F5F5F5;
+    light-primary-color: #212121;
+    accent-color: #607D8B;
+    primary-text-color: #212121;
+    secondary-text-color: #626567;
+    divider-color: #BDBDBD;
+}
+
+.root {
+    -fx-background-color: divider-color;;
+}
+
+.tab {
+    -fx-background-color: secondary-text-color;
+}
+
+.tab-header-background {
+    -fx-background-color: dark-primary-color;
+}
+
+.tab-label {
+    -fx-text-fill: #212121;
+}
+
+.list-view {
+    -fx-base: #616161;
+    -fx-control-inner-background: default-primary-color;
+}
+
+.list-view:focused .table-row-cell:filled:focused:selected {
+    -fx-background-color: divider-color;;
+}
+
+.tree-view {
+    -fx-control-inner-background: default-primary-color;
+}
+
+
+.tree-view:focused .tree-cell:filled:focused:selected {
+    -fx-background-color: dark-primary-color;
+}
+
+.label{
+    -fx-text-fill: black;
+    -fx-background-color:  #979A9A;
+}
+
+.button{
+    -fx-background-color:  #5F6A6A;
+    -fx-text-fill: black;
+    -fx-border-color: black;
+}
+
+.text-field{
+    -fx-border-color: black;
+}
+
+.check-box{
+    -fx-border-color : black;
+}

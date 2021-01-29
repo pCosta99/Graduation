@@ -1,0 +1,32 @@
+#!/usr/bin/env bash
+
+#Usage:
+#bash script a b c
+#a -> number of times to repeat procedure
+#b -> 0 -> calls insert (doesn't need c)
+#  -> 1 -> calls rename (requires c)
+#  -> 2 -> calls reprice (requires c)
+#c -> range of codes
+
+for((i=1;i<=$1;i++))
+do
+	LETTER=$(((RANDOM % 100)+1))
+	PRICE=$(((RANDOM % 1000)))
+
+	if [ $2 -eq 0 ]; then 
+			echo i artigo$i $PRICE | ./ma
+	elif [ $2 -eq 1 ]; then
+			CODE=$((RANDOM % $3))
+			echo n $CODE $PRICE | ./ma
+	elif [ $2 -eq 2 ]; then
+			CODE=$((RANDOM % $3))
+			echo p $CODE $PRICE | ./ma
+	else 	echo "Bad input."
+	fi
+	
+	if [ ! -z $3 ]; then 
+			echo $CODE $PRICE
+	else 	echo artigo$i $PRICE 
+	fi	
+
+done

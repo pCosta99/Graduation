@@ -1,0 +1,828 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="908e6649-81f8-4534-85cd-e9531e170e6a" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="600">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/gestaoGeral.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="6467">
+              <caret line="235" column="15" selection-start-line="235" selection-start-column="15" selection-end-line="235" selection-end-column="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/gestaoUtilizadores.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1026">
+              <caret line="149" column="21" selection-start-line="149" selection-start-column="21" selection-end-line="149" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Cliente.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="5307">
+              <caret line="203" column="21" selection-start-line="203" selection-start-column="21" selection-end-line="203" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/gestorCarros.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3132">
+              <caret line="128" column="1" selection-start-line="128" selection-start-column="1" selection-end-line="128" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Carro.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="6612">
+              <caret line="263" column="20" selection-start-line="263" selection-start-column="20" selection-end-line="263" selection-end-column="20" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Menu.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3596">
+              <caret line="126" column="69" selection-start-line="126" selection-start-column="69" selection-end-line="126" selection-end-column="69" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Aluguer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="5597">
+              <caret line="229" column="20" selection-start-line="229" selection-start-column="20" selection-end-line="229" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="30" selection-start-column="30" selection-end-line="9" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Localizacao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2726">
+              <caret line="104" column="25" selection-start-line="104" selection-start-column="25" selection-end-line="104" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Proprietario.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="5713">
+              <caret line="214" column="20" selection-start-line="214" selection-start-column="20" selection-end-line="214" selection-end-column="20" />
+              <folding>
+                <element signature="e#4477#4478#0" expanded="true" />
+                <element signature="e#4522#4523#0" expanded="true" />
+                <element signature="e#4573#4574#0" expanded="true" />
+                <element signature="e#4621#4622#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>getTipo</find>
+      <find>Strin</find>
+      <find>Classifica</find>
+      <find>set</find>
+      <find>setPo</find>
+      <find>String</find>
+      <find>Stringto</find>
+      <find>stringtocarro</find>
+      <find>System.out.println</find>
+      <find>toString</find>
+      <find>stringToAluguer</find>
+      <find>addal</find>
+      <find>addAluguer</find>
+      <find>maisBarato</find>
+      <find>carro.addAluguer</find>
+      <find>add</find>
+      <find>pedido</find>
+      <find>pedidoAluguer</find>
+      <find>remove</find>
+      <find>1- Login</find>
+      <find>Classi</find>
+      <find>distancia</find>
+      <find>distanciaPerco</find>
+      <find>aluguer</find>
+      <find>SetData</find>
+      <find>stringtoProprietario</find>
+      <find>adicionarPro</find>
+      <find>totalFa</find>
+      <find>pedidoMatri</find>
+      <find>adicionar</find>
+    </findStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/Exception_ClienteInexistente.java" />
+        <option value="$PROJECT_DIR$/src/Exception_PasswordErrada.java" />
+        <option value="$PROJECT_DIR$/src/logsPOO_carregamentoInicial .bak" />
+        <option value="$PROJECT_DIR$/src/Veiculo.java" />
+        <option value="$PROJECT_DIR$/src/Localizacao.java" />
+        <option value="$PROJECT_DIR$/src/Utilizador.java" />
+        <option value="$PROJECT_DIR$/src/gestorCarros.java" />
+        <option value="$PROJECT_DIR$/src/Main.java" />
+        <option value="$PROJECT_DIR$/src/gestaoGeral.java" />
+        <option value="$PROJECT_DIR$/src/Aluguer.java" />
+        <option value="$PROJECT_DIR$/src/Menu.java" />
+        <option value="$PROJECT_DIR$/src/Proprietario.java" />
+        <option value="$PROJECT_DIR$/src/Cliente.java" />
+        <option value="$PROJECT_DIR$/src/Carro.java" />
+        <option value="$PROJECT_DIR$/src/gestaoUtilizadores.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="967" />
+    <option name="y" value="411" />
+    <option name="width" value="1400" />
+    <option name="height" value="1000" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="POOProj" type="b2602c69:ProjectViewProjectNode" />
+              <item name="POOProj" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="POOProj" type="b2602c69:ProjectViewProjectNode" />
+              <item name="POOProj" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="POOProj" type="b2602c69:ProjectViewProjectNode" />
+              <item name="POOProj" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Aluguer.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
+            <path>
+              <item name="POOProj" type="b2602c69:ProjectViewProjectNode" />
+              <item name="POOProj" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Carro.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
+            <path>
+              <item name="POOProj" type="b2602c69:ProjectViewProjectNode" />
+              <item name="POOProj" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Cliente.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../HoteisInc" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="POOProj" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="908e6649-81f8-4534-85cd-e9531e170e6a" name="Default Changelist" comment="" />
+      <created>1556971129886</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1556971129886</updated>
+      <workItem from="1556971133996" duration="546000" />
+      <workItem from="1557157410178" duration="19000" />
+      <workItem from="1557242213271" duration="10000" />
+      <workItem from="1557567410754" duration="13295000" />
+      <workItem from="1557662718917" duration="4025000" />
+      <workItem from="1557747906344" duration="16538000" />
+      <workItem from="1557838922461" duration="3125000" />
+      <workItem from="1557842526765" duration="1295000" />
+      <workItem from="1557844084760" duration="7360000" />
+      <workItem from="1557852301077" duration="2552000" />
+      <workItem from="1557925734653" duration="8314000" />
+      <workItem from="1558010961024" duration="1544000" />
+      <workItem from="1558013252667" duration="7059000" />
+      <workItem from="1558023998531" duration="364000" />
+      <workItem from="1558170733459" duration="5880000" />
+      <workItem from="1558442951858" duration="9567000" />
+      <workItem from="1558529089883" duration="10333000" />
+      <workItem from="1558612731893" duration="151000" />
+      <workItem from="1558617446741" duration="179000" />
+      <workItem from="1558698432187" duration="6711000" />
+      <workItem from="1558705302622" duration="2760000" />
+      <workItem from="1558708854691" duration="395000" />
+      <workItem from="1558714535088" duration="456000" />
+      <workItem from="1558773722806" duration="4387000" />
+      <workItem from="1558779237414" duration="245000" />
+      <workItem from="1558779510964" duration="22000" />
+      <workItem from="1558779896225" duration="821000" />
+      <workItem from="1558787926878" duration="664000" />
+      <workItem from="1558864363037" duration="3397000" />
+      <workItem from="1558883544617" duration="428000" />
+      <workItem from="1558884146388" duration="207000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="112649000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="134" y="35" width="3066" height="1765" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.37609133" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32978016" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3997335" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32978016" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Maven" order="7" weight="0.32975152" />
+      <window_info anchor="right" id="Database" order="8" weight="0.32975152" />
+      <window_info anchor="right" id="Module Dependencies" order="9" weight="0.32975152" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.31296173" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32978016" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3997335" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32978016" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Maven" order="7" weight="0.32975152" />
+      <window_info anchor="right" id="Database" order="8" weight="0.32975152" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/Exception_ClienteInexistente.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="12" column="1" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Exception_PasswordErrada.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/logsPOO_carregamentoInicial .bak" />
+    <entry file="jrt:///usr/lib/jvm/java-1.11.0-openjdk-amd64!/java.base/java/io/FileReader.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jrt:///usr/lib/jvm/java-1.11.0-openjdk-amd64!/java.base/java/io/FileInputStream.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jrt:///usr/lib/jvm/java-1.11.0-openjdk-amd64!/java.base/java/util/Objects.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="461">
+          <caret line="91" selection-start-line="91" selection-end-line="91" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jrt:///usr/lib/jvm/java-1.11.0-openjdk-amd64!/java.base/java/util/ArrayList.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="318">
+          <caret line="241" selection-start-line="241" selection-end-line="241" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.html" />
+    <entry file="uml://JavaScript-modules-diagram//home/ulisses/POOProj/src">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JavaScript-modules-diagram</ID>
+          <OriginalElement>$PROJECT_DIR$/src</OriginalElement>
+          <nodes>
+            <node x="" y="">$PROJECT_DIR$/src/Aluguer.html</node>
+            <node x="" y="">$PROJECT_DIR$/src/Carro.html</node>
+            <node x="" y="">$PROJECT_DIR$/src/Cliente.html</node>
+            <node x="" y="">$PROJECT_DIR$/src/Exception_ClienteInexistente.html</node>
+            <node x="" y="">$PROJECT_DIR$/src/Exception_PasswordErrada.html</node>
+            <node x="" y="">$PROJECT_DIR$/src/Localizacao.html</node>
+            <node x="" y="">$PROJECT_DIR$/src/Main.html</node>
+            <node x="" y="">$PROJECT_DIR$/src/Proprietario.html</node>
+            <node x="" y="">$PROJECT_DIR$/src/Utilizador.html</node>
+            <node x="" y="">$PROJECT_DIR$/src/Veiculo.html</node>
+            <node x="" y="">$PROJECT_DIR$/src/allclasses-index.html</node>
+            <node x="" y="">$PROJECT_DIR$/src/allclasses.html</node>
+            <node x="" y="">$PROJECT_DIR$/src/allpackages-index.html</node>
+            <node x="" y="">$PROJECT_DIR$/src/constant-values.html</node>
+            <node x="" y="">$PROJECT_DIR$/src/deprecated-list.html</node>
+            <node x="" y="">$PROJECT_DIR$/src/gestaoGeral.html</node>
+            <node x="" y="">$PROJECT_DIR$/src/gestaoUtilizadores.html</node>
+            <node x="" y="">$PROJECT_DIR$/src/gestorCarros.html</node>
+            <node x="" y="">$PROJECT_DIR$/src/help-doc.html</node>
+            <node x="" y="">$PROJECT_DIR$/src/index-files/index-1.html</node>
+            <node x="" y="">$PROJECT_DIR$/src/index-files/index-10.html</node>
+            <node x="" y="">$PROJECT_DIR$/src/index-files/index-11.html</node>
+            <node x="" y="">$PROJECT_DIR$/src/index-files/index-12.html</node>
+            <node x="" y="">$PROJECT_DIR$/src/index-files/index-13.html</node>
+            <node x="" y="">$PROJECT_DIR$/src/index-files/index-14.html</node>
+            <node x="" y="">$PROJECT_DIR$/src/index-files/index-15.html</node>
+            <node x="" y="">$PROJECT_DIR$/src/index-files/index-16.html</node>
+            <node x="" y="">$PROJECT_DIR$/src/index-files/index-17.html</node>
+            <node x="" y="">$PROJECT_DIR$/src/index-files/index-2.html</node>
+            <node x="" y="">$PROJECT_DIR$/src/index-files/index-3.html</node>
+            <node x="" y="">$PROJECT_DIR$/src/index-files/index-4.html</node>
+            <node x="" y="">$PROJECT_DIR$/src/index-files/index-5.html</node>
+            <node x="" y="">$PROJECT_DIR$/src/index-files/index-6.html</node>
+            <node x="" y="">$PROJECT_DIR$/src/index-files/index-7.html</node>
+            <node x="" y="">$PROJECT_DIR$/src/index-files/index-8.html</node>
+            <node x="" y="">$PROJECT_DIR$/src/index-files/index-9.html</node>
+            <node x="" y="">$PROJECT_DIR$/src/index.html</node>
+            <node x="" y="">$PROJECT_DIR$/src/jquery/jquery-3.3.1.js</node>
+            <node x="" y="">$PROJECT_DIR$/src/jquery/jquery-migrate-3.0.1.js#jquery#416;</node>
+            <node x="" y="">$PROJECT_DIR$/src/jquery/jquery-ui.css</node>
+            <node x="" y="">$PROJECT_DIR$/src/jquery/jquery-ui.js</node>
+            <node x="" y="">$PROJECT_DIR$/src/jquery/jszip-utils/dist/jszip-utils.min.js</node>
+            <node x="" y="">$PROJECT_DIR$/src/jquery/jszip/dist/jszip.js#$export#149991;/home/ulisses/POOProj/src/jquery/jszip/dist/jszip.js#$task#150026;/home/ulisses/POOProj/src/jquery/jszip/dist/jszip.js#ArrayReader#63294;/home/ulisses/POOProj/src/jquery/jszip/dist/jszip.js#CompressedObject#134693;/home/ulisses/POOProj/src/jquery/jszip/dist/jszip.js#ConvertWorker#78870;/home/ulisses/POOProj/src/jquery/jszip/dist/jszip.js#Crc32Probe#35223;/home/ulisses/POOProj/src/jquery/jszip/dist/jszip.js#DataLengthProbe#4795;/home/ulisses/POOProj/src/jquery/jszip/dist/jszip.js#DataReader#62198;/home/ulisses/POOProj/src/jquery/jszip/dist/jszip.js#DataWorker#4746;/home/ulisses/POOProj/src/jquery/jszip/dist/jszip.js#GZheader#170297;/home/ulisses/POOProj/src/jquery/jszip/dist/jszip.js#GenericWorker#66879;/home/ulisses/POOProj/src/jquery/jszip/dist/jszip.js#IE8_DOM_DEFINE#145962;/home/ulisses/POOProj/src/jquery/jszip/dist/jszip.js#NodeBufferReader#64184;/home/ulisses/POOProj/src/jquery/jszip/dist/jszip.js#NodejsStreamInputAdapter#43310;/home/ulisses/POOProj/src/jquery/jszip/dist/jszip.js#NodejsStreamOutputAdapter#79184;/home/ulisses/POOProj/src/jquery/jszip/dist/jszip.js#Readable#39966;/home/ulisses/POOProj/src/jquery/jszip/dist/jszip.js#StreamHelper#43043;/home/ulisses/POOProj/src/jquery/jszip/dist/jszip.js#StringReader#64138;/home/ulisses/POOProj/src/jquery/jszip/dist/jszip.js#Uint8ArrayReader#61597;/home/ulisses/POOProj/src/jquery/jszip/dist/jszip.js#ZStream#158984;/home/ulisses/POOProj/src/jquery/jszip/dist/jszip.js#ZipEntries#35181;/home/ulisses/POOProj/src/jquery/jszip/dist/jszip.js#ZipEntry#111211;/home/ulisses/POOProj/src/jquery/jszip/dist/jszip.js#ZipFileWorker#31556;/home/ulisses/POOProj/src/jquery/jszip/dist/jszip.js#ZipObject#43188;/home/ulisses/POOProj/src/jquery/jszip/dist/jszip.js#_cof#148053;/home/ulisses/POOProj/src/jquery/jszip/dist/jszip.js#_descriptors#144296;/home/ulisses/POOProj/src/jquery/jszip/dist/jszip.js#_dom-create#144829;/home/ulisses/POOProj/src/jquery/jszip/dist/jszip.js#_fails#140736;/home/ulisses/POOProj/src/jquery/jszip/dist/jszip.js#aFunction#140147;/home/ulisses/POOProj/src/jquery/jszip/dist/jszip.js#adler32#273160;/home/ulisses/POOProj/src/jquery/jszip/dist/jszip.js#anObject#145917;/home/ulisses/POOProj/src/jquery/jszip/dist/jszip.js#assign#158390;/home/ulisses/POOProj/src/jquery/jszip/dist/jszip.js#base64#78966;/home/ulisses/POOProj/src/jquery/jszip/dist/jszip.js#c#170156;/home/ulisses/POOProj/src/jquery/jszip/dist/jszip.js#cel#147012;/home/ulisses/POOProj/src/jquery/jszip/dist/jszip.js#compressions#123331;/home/ulisses/POOProj/src/jquery/jszip/dist/jszip.js#constants#158517;/home/ulisses/POOProj/src/jquery/jszip/dist/jszip.js#core#141313;/home/ulisses/POOProj/src/jquery/jszip/dist/jszip.js#crc32#66203;/home/ulisses/POOProj/src/jquery/jszip/dist/jszip.js#crc32fn#123267;/home/ulisses/POOProj/src/jquery/jszip/dist/jszip.js#createDesc#144237;/home/ulisses/POOProj/src/jquery/jszip/dist/jszip.js#ctx#141348;/home/ulisses/POOProj/src/jquery/jszip/dist/jszip.js#dP#144196;/home/ulisses/POOProj/src/jquery/jszip/dist/jszip.js#defaults#34575;/home/ulisses/POOProj/src/jquery/jszip/dist/jszip.js#deflate#158433;/home/ulisses/POOProj/src/jquery/jszip/dist/jszip.js#document#140963;/home/ulisses/POOProj/src/jquery/jszip/dist/jszip.js#external#34869;/home/ulisses/POOProj/src/jquery/jszip/dist/jszip.js#flate#8080;/home/ulisses/POOProj/src/jquery/jszip/dist/jszip.js#generate#43228;/home/ulisses/POOProj/src/jquery/jszip/dist/jszip.js#global#141276;/home/ulisses/POOProj/src/jquery/jszip/dist/jszip.js#hide#141382;/home/ulisses/POOProj/src/jquery/jszip/dist/jszip.js#html#146968;/home/ulisses/POOProj/src/jquery/jszip/dist/jszip.js#immediate#152325;/home/ulisses/POOProj/src/jquery/jszip/dist/jszip.js#inflate#158475;/home/ulisses/POOProj/src/jquery/jszip/dist/jszip.js#inflate_fast#273242;/home/ulisses/POOProj/src/jquery/jszip/dist/jszip.js#inflate_table#273284;/home/ulisses/POOProj/src/jquery/jszip/dist/jszip.js#invoke#146922;/home/ulisses/POOProj/src/jquery/jszip/dist/jszip.js#isObject#149331;/home/ulisses/POOProj/src/jquery/jszip/dist/jszip.js#lie#10828;/home/ulisses/POOProj/src/jquery/jszip/dist/jszip.js#load#34501;/home/ulisses/POOProj/src/jquery/jszip/dist/jszip.js#msg#158937;/home/ulisses/POOProj/src/jquery/jszip/dist/jszip.js#nodejsUtils#95352;/home/ulisses/POOProj/src/jquery/jszip/dist/jszip.js#object#34452;/home/ulisses/POOProj/src/jquery/jszip/dist/jszip.js#pako#11159;/home/ulisses/POOProj/src/jquery/jszip/dist/jszip.js#readerFor#123134;/home/ulisses/POOProj/src/jquery/jszip/dist/jszip.js#setImmediate#139283;/home/ulisses/POOProj/src/jquery/jszip/dist/jszip.js#sig#111177;/home/ulisses/POOProj/src/jquery/jszip/dist/jszip.js#signature#13633;/home/ulisses/POOProj/src/jquery/jszip/dist/jszip.js#stream#56094;/home/ulisses/POOProj/src/jquery/jszip/dist/jszip.js#strings#170109;/home/ulisses/POOProj/src/jquery/jszip/dist/jszip.js#support#34536;/home/ulisses/POOProj/src/jquery/jszip/dist/jszip.js#toPrimitive#146012;/home/ulisses/POOProj/src/jquery/jszip/dist/jszip.js#trees#196842;/home/ulisses/POOProj/src/jquery/jszip/dist/jszip.js#utf8#134663;/home/ulisses/POOProj/src/jquery/jszip/dist/jszip.js#utils#35149;/home/ulisses/POOProj/src/jquery/jszip/dist/jszip.js#web.immediate#139229;/home/ulisses/POOProj/src/jquery/jszip/dist/jszip.js#zlib_deflate#158798;/home/ulisses/POOProj/src/jquery/jszip/dist/jszip.js#zlib_inflate#170017;</node>
+            <node x="" y="">$PROJECT_DIR$/src/jquery/jszip/dist/jszip.min.js</node>
+            <node x="" y="">$PROJECT_DIR$/src/overview-tree.html</node>
+            <node x="" y="">$PROJECT_DIR$/src/package-summary.html</node>
+            <node x="" y="">$PROJECT_DIR$/src/package-tree.html</node>
+            <node x="" y="">$PROJECT_DIR$/src/script.js</node>
+            <node x="" y="">$PROJECT_DIR$/src/serialized-form.html</node>
+            <node x="" y="">$PROJECT_DIR$/src/stylesheet.css</node>
+            <node x="" y="">ArrayReader</node>
+            <node x="" y="">ConvertWorker</node>
+            <node x="" y="">Crc32Probe</node>
+            <node x="" y="">DataLengthProbe</node>
+            <node x="" y="">DataReader</node>
+            <node x="" y="">DataWorker</node>
+            <node x="" y="">GenericWorker</node>
+            <node x="" y="">NodeBufferReader</node>
+            <node x="" y="">NodejsStreamInputAdapter</node>
+            <node x="" y="">NodejsStreamOutputAdapter</node>
+            <node x="" y="">StreamHelper</node>
+            <node x="" y="">StringReader</node>
+            <node x="" y="">Uint8ArrayReader</node>
+            <node x="" y="">ZipFileWorker</node>
+            <node x="" y="">_a-function</node>
+            <node x="" y="">_an-object</node>
+            <node x="" y="">_cof</node>
+            <node x="" y="">$PROJECT_DIR$/src/jquery/jszip/dist/jszip.js#setImmediate#150091;</node>
+            <node x="" y="">_ctx</node>
+            <node x="" y="">_descriptors</node>
+            <node x="" y="">_dom-create</node>
+            <node x="" y="">_export</node>
+            <node x="" y="">_fails</node>
+            <node x="" y="">document;</node>
+            <node x="" y="">_hide</node>
+            <node x="" y="">_html</node>
+            <node x="" y="">_ie8-dom-define</node>
+            <node x="" y="">_invoke</node>
+            <node x="" y="">_is-object</node>
+            <node x="" y="">_object-dp</node>
+            <node x="" y="">_property-desc</node>
+            <node x="" y="">_task</node>
+            <node x="" y="">_to-primitive</node>
+            <node x="" y="">adler32</node>
+            <node x="" y="">base64</node>
+            <node x="" y="">assign;</node>
+            <node x="" y="">compressedObject</node>
+            <node x="" y="">compressions</node>
+            <node x="" y="">constants</node>
+            <node x="" y="">crc32</node>
+            <node x="" y="">defaults</node>
+            <node x="" y="">deflate</node>
+            <node x="" y="">external</node>
+            <node x="" y="">flate</node>
+            <node x="" y="">generate</node>
+            <node x="" y="">gzheader</node>
+            <node x="" y="">immediate</node>
+            <node x="" y="">inffast</node>
+            <node x="" y="">inflate</node>
+            <node x="" y="">inftrees</node>
+            <node x="" y="">jquery</node>
+            <node x="" y="">lie</node>
+            <node x="" y="">load</node>
+            <node x="" y="">messages</node>
+            <node x="" y="">nodejsUtils</node>
+            <node x="" y="">object</node>
+            <node x="" y="">pako</node>
+            <node x="" y="">Readable;</node>
+            <node x="" y="">readerFor</node>
+            <node x="" y="">set-immediate</node>
+            <node x="" y="">signature</node>
+            <node x="" y="">stream</node>
+            <node x="" y="">strings</node>
+            <node x="" y="">support</node>
+            <node x="" y="">trees</node>
+            <node x="" y="">utf8</node>
+            <node x="" y="">utils</node>
+            <node x="" y="">web.immediate</node>
+            <node x="" y="">zipEntries</node>
+            <node x="" y="">zipEntry</node>
+            <node x="" y="">zipObject</node>
+            <node x="" y="">zstream</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.3601443671049239" x="2741.0" y="1930.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>All</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>Details</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement />
+          <nodes>
+            <node x="0.0" y="102.0">Proprietario</node>
+            <node x="509.0" y="568.0">Aluguer</node>
+            <node x="510.0" y="426.0">Preferencia</node>
+            <node x="515.0" y="0.0">Veiculo</node>
+            <node x="505.0" y="499.0">TipoCarro</node>
+            <node x="508.0" y="356.0">gestaoGeral</node>
+            <node x="49.0" y="363.0">ComparatorClienteGasto</node>
+            <node x="19.0" y="281.0">Exception_PasswordErrada</node>
+            <node x="499.0" y="276.0">gestaoUtilizadores</node>
+            <node x="268.0" y="590.0">Menu</node>
+            <node x="280.0" y="102.0">Cliente</node>
+            <node x="499.0" y="203.0">ComparatorClienteUtilizacao</node>
+            <node x="136.5" y="0.0">Utilizador</node>
+            <node x="529.0" y="102.0">Carro</node>
+            <node x="128.0" y="507.0">Localizacao</node>
+            <node x="0.0" y="199.0">Exception_ClienteInexistente</node>
+            <node x="119.0" y="442.0">gestorCarros</node>
+            <node x="65.0" y="592.0">Main</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="Carro" target="Veiculo">
+              <point x="0.0" y="-26.0" />
+              <point x="0.0" y="26.0" />
+            </edge>
+            <edge source="Cliente" target="Utilizador">
+              <point x="0.0" y="-26.0" />
+              <point x="375.0" y="77.0" />
+              <point x="310.5" y="77.0" />
+              <point x="58.0" y="26.0" />
+            </edge>
+            <edge source="Proprietario" target="Utilizador">
+              <point x="0.0" y="-26.0" />
+              <point x="130.0" y="77.0" />
+              <point x="194.5" y="77.0" />
+              <point x="-58.0" y="26.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="558.0" y="562.0" />
+          <SelectedNodes>
+            <node>Menu</node>
+          </SelectedNodes>
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Veiculo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5220">
+          <caret line="214" column="4" selection-start-line="214" selection-start-column="4" selection-end-line="216" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Utilizador.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1682">
+          <caret line="61" column="43" selection-start-line="61" selection-start-column="43" selection-end-line="61" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gestaoGeral.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6467">
+          <caret line="235" column="15" selection-start-line="235" selection-start-column="15" selection-end-line="235" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Cliente.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5307">
+          <caret line="203" column="21" selection-start-line="203" selection-start-column="21" selection-end-line="203" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gestorCarros.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3132">
+          <caret line="128" column="1" selection-start-line="128" selection-start-column="1" selection-end-line="128" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Carro.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6612">
+          <caret line="263" column="20" selection-start-line="263" selection-start-column="20" selection-end-line="263" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Menu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3596">
+          <caret line="126" column="69" selection-start-line="126" selection-start-column="69" selection-end-line="126" selection-end-column="69" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Aluguer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5597">
+          <caret line="229" column="20" selection-start-line="229" selection-start-column="20" selection-end-line="229" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="30" selection-start-column="30" selection-end-line="9" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Localizacao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2726">
+          <caret line="104" column="25" selection-start-line="104" selection-start-column="25" selection-end-line="104" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Proprietario.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5713">
+          <caret line="214" column="20" selection-start-line="214" selection-start-column="20" selection-end-line="214" selection-end-column="20" />
+          <folding>
+            <element signature="e#4477#4478#0" expanded="true" />
+            <element signature="e#4522#4523#0" expanded="true" />
+            <element signature="e#4573#4574#0" expanded="true" />
+            <element signature="e#4621#4622#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gestaoUtilizadores.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1026">
+          <caret line="149" column="21" selection-start-line="149" selection-start-column="21" selection-end-line="149" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>POOProj</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

@@ -1,0 +1,10 @@
+^C:\USERS\JOAN\DOWNLOADS\CODE9\BUILD\CMAKEFILES\04FC3E29B0AACF43ED4FCE633ABF6F88\GENERATE.STAMP.RULE
+setlocal
+C:\Users\joan\Downloads\cmake-3.17.0-rc1-win64-x64\cmake-3.17.0-rc1-win64-x64\bin\cmake.exe -SC:/Users/joan/Downloads/code9 -BC:/Users/joan/Downloads/code9/Build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/joan/Downloads/code9/Build/class9.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

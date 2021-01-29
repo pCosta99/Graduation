@@ -1,0 +1,947 @@
+<html><!--Rootsweb header--><center><div id='rwsites-ldr-top'></div></center>
+
+<HEAD>
+<TITLE>The GEDCOM Standard Release 5.5: Appendix A</TITLE>
+<!-- This file was created by the WP2X program, using an HTML 
+descriptor file (Version 1) written by Michael Richardson
+Do not expect everything to be converted perfectly.  -->
+</HEAD>
+<BODY>
+<a href="55gctoc.htm">[Contents]</a>
+<a href="../genweb.html">[Home]</a>
+<a href="mailto:pbmcbride@rcn.com">[Mail]</a>
+<H1 align=center>The GEDCOM Standard Release 5.5</H1>
+<H2 align=center> Appendix A</H2>
+<br>
+<B> Lineage-Linked GEDCOM Tag Definition</B>
+<br>
+<br>
+<B> Introduction
+<br>
+</B>
+<br>
+Appendix A is a glossary of the tags used in the Lineage-Linked GEDCOM Form. These tags are
+used in a hierarchal structure to describe individuals in terms of their families, names, dates, places,
+events, roles, sources, relationships.  Control information and other kinds of data intended for
+computer processing is also included. (An example of the tags used in the Lineage-Linked Form
+begins <a href=55gcch2.htm#Example>here</a> .) To ensure all transmitted information in the Lineage-Linked GEDCOM is
+uniformly identified the standardized tags cannot be placed in any other context than shown in
+<a href="55gcch2.htm">Chapter 2</a>.  It is legal to extend the context of the form, but only by using user-defined tags which
+must begin with an underscore.  This will not violate the lineage-linked GEDCOM standard unless
+the context for the grammar of the Lineage-Linked GEDCOM Form is violated. The use of the
+underscore in the user tag name is to signal a non-standard construct is being used. This notifies the
+reading system of a discrepancy and will avoid future conflicts with tags that may be standardized in
+subsequent GEDCOM releases.
+<br>
+<br>
+<B> Lineage-Linked GEDCOM Tag Definitions</B>
+<br>
+<br>
+This section provides the definitions of the standardized GEDCOM tags and shows their formal
+name inside of the {braces}. The formal names are not used in place of the tag. Full understanding
+must come from the context in which the tag is used.
+<br>
+<br>
+<B> ABBR {ABBREVIATION}:</B>
+=
+<br>
+  A short name of a title, description, or name.
+<br>
+<br>
+<B> ADDR {ADDRESS}:</B>
+=
+<br>
+The contemporary place, usually required for postal purposes, of an individual, a submitter of
+information, a repository, a business, a school, or a company.
+<br>
+<br>
+<B> ADR1 {ADDRESS1}:</B>
+=
+<br>
+The first line of an address. 
+<br>
+<br>
+<B> ADR2 {ADDRESS2}:</B>
+=
+<br>
+The second line of an address.
+<br>
+<br>
+<B> ADOP {ADOPTION}:</B>
+=
+<br>
+Pertaining to creation of a child-parent relationship that does not exist biologically.
+<br>
+<br>
+<B> AFN {AFN}:</B>
+=
+<br>
+A unique permanent record file number of an individual record stored in Ancestral File. 
+<br>
+<br>
+<B> AGE {AGE}:</B>
+=
+<br>
+The age of the individual at the time an event occurred, or the age listed in the document.
+<br>
+<br>
+<B> AGNC {AGENCY}:</B>
+=
+<br>
+The institution or individual having authority and/or responsibility to manage or govern.
+<br>
+<br>
+<B> ALIA {ALIAS}:</B>
+=
+<br>
+An indicator to link different record descriptions of a person who may be the same person.
+<br>
+<br>
+<B> ANCE {ANCESTORS}:</B>
+=
+<br>
+Pertaining to forbearers of an individual.
+<br>
+<br>
+<B><a name=ANCI></a> ANCI {ANCES_INTEREST}:</B>
+=
+<br>
+Indicates an interest in additional research for ancestors of this individual. (See also <a href=#DESI>DESI</a>.)
+<br>
+<br>
+<B> ANUL {ANNULMENT}:</B>
+=
+<br>
+Declaring a marriage void from the beginning (never existed).
+<br>
+<br>
+<B> ASSO {ASSOCIATES}:</B>
+=
+<br>
+An indicator to link friends, neighbors, relatives, or associates of an individual.
+<br>
+<br>
+<B> AUTH {AUTHOR}:</B>
+=
+<br>
+The name of the individual who created or compiled information.
+<br>
+                                      
+<br>
+<B><a name=BAPL></a> BAPL {BAPTISM-LDS}:</B>
+=
+<br>
+The event of baptism performed at age eight or later by priesthood authority of the LDS
+Church. (See also <a href=#BAPM>BAPM</a>)
+<br>
+<br>
+<B><a name=BAPM></a> BAPM {BAPTISM}:</B>
+=
+<br>
+The event of baptism (not LDS), performed in infancy or later. (See also <a href=#BAPL>BAPL</a>, and
+<a href=#CHR>CHR</a>.)
+<br>
+<br>
+<B> BARM {BAR_MITZVAH}:</B>
+=
+<br>
+The ceremonial event held when a Jewish boy reaches age 13.
+<br>
+<br>
+<B> BASM {BAS_MITZVAH}:</B>
+=
+<br>
+The ceremonial event held when a Jewish girl reaches age 13, also known as "Bat Mitzvah."
+<br>
+<br>
+<B> BIRT {BIRTH}:</B>
+=
+<br>
+The event of entering into life.
+<br>
+<br>
+<B> BLES {BLESSING}:</B>
+=
+<br>
+A religious event of bestowing divine care or intercession. Sometimes given in connection
+with a naming ceremony.
+<br>
+<br>
+<B> BLOB {BINARY_OBJECT}:</B>
+=
+<br>
+A grouping of data used as input to a multimedia system that processes binary data to
+represent images, sound, and video. 
+<br>
+  
+<br>
+<B> BURI {BURIAL}:</B>
+=
+<br>
+The event of the proper disposing of the mortal remains of a deceased person.
+<br>
+<br>
+<B> CALN {CALL_NUMBER}:</B>
+=
+<br>
+The number used by a repository to identify the specific items in its collections.
+<br>
+<br>
+<B> CAST {CASTE}:</B>
+=                               
+<br>
+  The name of an individual's rank or status in society, based 
+<br>
+  on racial or religious differences, or differences in wealth, inherited 
+<br>
+  rank, profession, occupation, etc.
+<br>
+<br>
+<B> CAUS {CAUSE}:</B>
+=
+<br>
+A description of the cause of the associated event or fact, such as the cause of death.
+<br>
+<br>
+<B> CENS {CENSUS}:</B>
+=
+<br>
+The event of the periodic count of the population for a designated locality, such as a national
+or state Census.
+<br>
+<br>
+<B> CHAN {CHANGE}:</B>
+=
+<br>
+Indicates a change, correction, or modification. Typically used in connection with a DATE to
+specify when a change in information occurred.
+<br>
+<br>
+<B> CHAR {CHARACTER}:</B>
+=
+<br>
+An indicator of the character set used in writing this automated information.
+<br>
+<br>
+<B> CHIL {CHILD}:</B>
+=
+<br>
+The natural, adopted, or sealed (LDS) child of a father and a mother.
+<br>
+<br>
+<B><a name=CHR></a> CHR {CHRISTENING}:</B>
+=
+<br>
+The religious event (not LDS) of baptizing and/or naming a child.
+<br>
+<br>
+<B> CHRA {ADULT_CHRISTENING}:</B>
+=
+<br>
+The religious event (not LDS) of baptizing and/or naming an adult person.
+<br>
+<br>
+<B> CITY {CITY}:</B>
+=
+<br>
+A lower level jurisdictional unit.  Normally an incorporated municipal unit.
+<br>
+<br>
+<B> CONC {CONCATENATION}:</B>
+=
+<br>
+An indicator that additional data belongs to the superior value. The information from the
+CONC value is to be connected to the value of the superior preceding line without a space and
+without a carriage return and/or new line character. Values that are split for a CONC tag must
+always be split at a non-space.  If the value is split on a space the space will be lost when
+concatenation takes place.  This is because of the treatment that spaces get as a GEDCOM
+delimiter, many GEDCOM values are trimmed of trailing spaces and some systems look for
+the first non-space starting after the tag to determine the beginning of the value.
+<br>
+<br>
+<B> CONF {CONFIRMATION}:</B>
+=
+<br>
+The religious event (not LDS) of conferring the gift of the Holy Ghost and, among
+protestants, full church membership.
+<br>
+<B> 
+<br>
+CONL {CONFIRMATION_L}:</B>
+=
+<br>
+The religious event by which a person receives membership in the LDS Church.
+<br>
+<br>
+<B> CONT {CONTINUED}:</B>
+=
+<br>
+An indicator that additional data belongs to the superior value. The information from the
+CONT value is to be connected to the value of the superior preceding line with a carriage
+return and/or new line character. Leading spaces could be important to the formatting of the
+resultant text. When importing values from CONT lines the reader should assume only one
+delimiter character following the CONT tag. Assume that the rest of the leading spaces are to
+be a part of the value.
+<br>
+<br>
+<B> COPR {COPYRIGHT}:</B>
+=
+<br>
+A statement that accompanies data to protect it from unlawful duplication and distribution.
+<br>
+<br>
+<B> CORP {CORPORATE}:</B>
+=
+<br>
+A name of an institution, agency, corporation, or company.
+<br>
+<br>
+<B> CREM {CREMATION}:</B>
+=
+<br>
+Disposal of the remains of a person's body by fire.
+<br>
+<br>
+<B> CTRY {COUNTRY}:</B>
+=
+<br>
+  The name or code of the country.
+<br>
+<B> </B>
+<br>
+<B> DATA {DATA}:</B>
+=
+<br>
+Pertaining to stored automated information.
+<br>
+<br>
+<B> DATE {DATE}:</B>
+=
+<br>
+The time of an event in a calendar format.
+<br>
+<em role="redline"> </em>
+<br>
+<B> DEAT {DEATH}:</B>
+=
+<br>
+The event when mortal life terminates.
+<br>
+<br>
+<B> DESC {DESCENDANTS}:</B>
+=
+<br>
+  Pertaining to offspring of an individual.
+<br>
+<B><a name=DESI></a> DESI {DESCENDANT_INT}:</B>
+=
+<br>
+Indicates an interest in research to identify additional descendants of this individual. (See also
+<a href=#ANCI>ANCI</a>.)
+<br>
+<br>
+<B> DEST {DESTINATION}:</B>
+=
+<br>
+A system receiving data.
+<br>
+<br>
+<B> DIV {DIVORCE}:</B>
+=
+<br>
+An event of dissolving a marriage through civil action.
+<br>
+<br>
+<B> DIVF {DIVORCE_FILED}:</B>
+=
+<br>
+An event of filing for a divorce by a spouse.
+<br>
+<br>
+<B> DSCR {PHY_DESCRIPTION}:</B>
+=
+<br>
+The physical characteristics of a person, place, or thing.
+<br>
+<B> </B>
+<br>
+<B> EDUC {EDUCATION}:</B>
+=
+<br>
+Indicator of a level of education attained.
+<br>
+<br>
+<B> EMIG {EMIGRATION}:</B>
+=
+<br>
+An event of leaving one's homeland with the intent of residing elsewhere.
+<br>
+<br>
+<B> ENDL {ENDOWMENT}:</B>
+=
+<br>
+A religious event where an endowment ordinance for an individual was performed by
+priesthood authority in an LDS temple.
+<br>
+<B> 
+<br>
+ENGA {ENGAGEMENT}:</B>
+=
+<br>
+An event of recording or announcing an agreement between two people to become married.
+<br>
+<br>
+<B> EVEN {EVENT}:</B>
+=
+<br>
+A noteworthy happening related to an individual, a group, or an organization.
+<br>
+<br>
+<B> FAM {FAMILY}:</B>
+=
+<br>
+Identifies a legal, common law, or other customary relationship of man and woman and their
+children, if any, or a family created by virtue of the birth of a child to its biological father and
+mother.
+<br>
+<br>
+<B> FAMC {FAMILY_CHILD}:</B>
+=
+<br>
+Identifies the family in which an individual appears as a child.
+<br>
+<br>
+<B> FAMF {FAMILY_FILE}:</B>
+=
+<br>
+Pertaining to, or the name of, a family file. Names stored in a file that are assigned to a
+family for doing temple ordinance work.
+<br>
+<br>
+<B> FAMS {FAMILY_SPOUSE}:</B>
+=
+<br>
+Identifies the family in which an individual appears as a spouse.
+<br>
+<B> </B>
+<br>
+<B> FCOM {FIRST_COMMUNION}:</B>
+=
+<br>
+A religious rite, the first act of sharing in the Lord's supper as part of church worship.
+<br>
+<br>
+<B> FILE {FILE}:</B>
+=
+<br>
+An information storage place that is ordered and arranged for preservation and reference.
+<br>
+<br>
+<B> FORM {FORMAT}:</B>
+=
+<br>
+An assigned name given to a consistent format in which information can be conveyed.
+<br>
+<br>
+<B> GEDC {GEDCOM}:</B>
+=
+<br>
+Information about the use of GEDCOM in a transmission.
+<br>
+<br>
+<B> GIVN {GIVEN_NAME}</B>
+<br>
+A given or earned name used for official identification of a person.
+<br>
+<br>
+<B> GRAD {GRADUATION}:</B>
+=
+<br>
+An event of awarding educational diplomas or degrees to individuals.
+<br>
+<br>
+<B> HEAD {HEADER}:</B>
+=
+<br>
+Identifies information pertaining to an entire GEDCOM transmission.
+<br>
+<br>
+<B> HUSB {HUSBAND}:</B>
+=
+<br>
+An individual in the family role of a married man or father.
+<br>
+<br>
+<B> IDNO {IDENT_NUMBER}:</B>
+=
+<br>
+A number assigned to identify a person within some significant external system.
+<br>
+<br>
+<B> IMMI {IMMIGRATION}:</B>
+=
+<br>
+An event of entering into a new locality with the intent of residing there.
+<br>
+<br>
+<B> INDI {INDIVIDUAL}:</B>
+=
+<br>
+A person.
+<br>
+<br>
+<B> LANG {LANGUAGE}:</B>
+=
+<br>
+The name of the language used in a communication or transmission of information.
+<br>
+<B> </B>
+<br>
+<B> LEGA {LEGATEE}:</B>
+=
+<br>
+A role of an individual acting as a person receiving a bequest or legal devise.
+<br>
+<B> </B>
+<br>
+<B> MARB {MARRIAGE_BANN}:</B>
+=
+<br>
+An event of an official public notice given that two people intend to marry.
+<br>
+<br>
+<B> MARC {MARR_CONTRACT}:</B>
+=
+<br>
+An event of recording a formal agreement of marriage, including the prenuptial agreement in
+which marriage partners reach agreement about the property rights of one or both, securing
+property to their children.
+<br>
+<br>
+<B> MARL {MARR_LICENSE}:</B>
+=
+<br>
+An event of obtaining a legal license to marry.
+<br>
+<br>
+<B> MARR {MARRIAGE}:</B>
+=
+<br>
+A legal, common-law, or customary event of creating a family unit of a man and a woman as
+husband and wife.
+<br>
+<br>
+<B> MARS {MARR_SETTLEMENT}:</B>
+=
+<br>
+An event of creating an agreement between two people contemplating marriage, at which time
+they agree to release or modify property rights that would otherwise arise from the marriage.
+<br>
+<br>
+<B> MEDI {MEDIA}:</B>
+=
+<br>
+Identifies information about the media or having to do with the medium in which information
+is stored.
+<br>
+<br>
+<B> </B>
+<B> NAME {NAME}:</B>
+=
+<br>
+A word or combination of words used to help identify an individual, title, or other item. More
+than one NAME line should be used for people who were known by multiple names.
+<br>
+<B> </B>
+<br>
+<B> NATI {NATIONALITY}:</B>
+=
+<br>
+The national heritage of an individual.
+<br>
+<br>
+<B> NATU {NATURALIZATION}:</B>
+=
+<br>
+The event of obtaining citizenship.
+<br>
+<br>
+<B> NCHI {CHILDREN_COUNT}:</B>
+=
+<br>
+The number of children that this person is known to be the parent of (all marriages) when
+subordinate to an individual, or that belong to this family when subordinate to a
+FAM_RECORD.
+<br>
+<br>
+<B> NICK {NICKNAME}:</B>
+=
+<br>
+A descriptive or familiar that is used instead of, or in addition to, one's proper name.
+<br>
+<br>
+<B> NMR {MARRIAGE_COUNT}:</B>
+=
+<br>
+The number of times this person has participated in a family as a spouse or parent.
+<br>
+<br>
+<B> NOTE {NOTE}:</B>
+=
+<br>
+Additional information provided by the submitter for understanding the enclosing data.
+<br>
+<br>
+<B> NPFX {NAME_PREFIX}:</B>
+=
+<br>
+Text which appears on a name line before the given and surname parts of a name.
+<br>
+    i.e. (
+<B> Lt. Cmndr.</B>
+) Joseph /Allen/ jr.
+<br>
+In this example Lt. Cmndr. is considered as the name prefix portion.
+<br>
+<br>
+<B> NSFX {NAME_SUFFIX}:</B>
+=
+<br>
+Text which appears on a name line after or behind the given and surname parts of a name.
+<br>
+    i.e. Lt. Cmndr. Joseph /Allen/ (
+<B> jr.</B>
+)
+<br>
+In this example jr. is considered as the name suffix portion.
+<br>
+<br>
+<B> OBJE {OBJECT}:</B>
+=
+<br>
+Pertaining to a grouping of attributes used in describing something.  Usually referring to the
+data required to represent a multimedia object, such an audio recording, a photograph of a
+person, or an image of a document.
+<br>
+<br>
+<B> OCCU {OCCUPATION}:</B>
+=
+<br>
+The type of work or profession of an individual.
+<br>
+<B> </B>
+<br>
+<B> ORDI {ORDINANCE}:</B>
+=
+<br>
+Pertaining to a religious ordinance in general.
+<br>
+<B> </B>
+<br>
+<B> ORDN {ORDINATION}:</B>
+=
+<br>
+A religious event of receiving authority to act in religious matters.
+<br>
+<br>
+<B> PAGE {PAGE}:</B>
+=
+<br>
+A number or description to identify where information can be found in a referenced work.
+<br>
+<br>
+<B> PEDI {PEDIGREE}:</B>
+=
+<br>
+Information pertaining to an individual to parent lineage chart.
+<br>
+<br>
+<B> PHON {PHONE}:</B>
+=
+<br>
+A unique number assigned to access a specific telephone.
+<br>
+<br>
+<B> PLAC {PLACE}:</B>
+=
+<br>
+A jurisdictional name to identify the place or location of an event.
+<br>
+<br>
+<B> POST {POSTAL_CODE}:</B>
+=
+<br>
+A code used by a postal service to identify an area to facilitate mail handling.
+<br>
+<br>
+<B><a name=PROB></a> PROB {PROBATE}:</B>
+=
+<br>
+An event of judicial determination of the validity of a will. May indicate several related court
+activities over several dates.
+<br>
+<br>
+<B> PROP {PROPERTY}:</B>
+=
+<br>
+Pertaining to possessions such as real estate or other property of interest.
+<br>
+<br>
+<B> PUBL {PUBLICATION}:</B>
+=
+<br>
+Refers to when and/or were a work was published or created.
+<br>
+<B> </B>
+<br>
+<B> QUAY {QUALITY_OF_DATA}:</B>
+=
+<br>
+An assessment of the certainty of the evidence to support the conclusion drawn from evidence.
+<br>
+<br>
+<B> REFN {REFERENCE}:</B>
+=
+<br>
+A description or number used to identify an item for filing, storage, or other reference
+purposes.
+<br>
+<br>
+<B> RELA {RELATIONSHIP}:</B>
+=
+<br>
+A relationship value between the indicated contexts.
+<br>
+<br>
+<B> RELI {RELIGION}:</B>
+=
+<br>
+A religious denomination to which a person is affiliated or for which a record applies.
+<br>
+<br>
+<B> REPO {REPOSITORY}:</B>
+=
+<br>
+An institution or person that has the specified item as part of their collection(s).
+<br>
+<br>
+<B> RESI {RESIDENCE}:</B>
+=
+<br>
+The act of dwelling at an address for a period of time.
+<br>
+<br>
+<B> RESN {RESTRICTION}:</B>
+=
+<br>
+A processing indicator signifying access to information has been denied or otherwise
+restricted.
+<br>
+<br>
+<B> RETI {RETIREMENT}:</B>
+=
+<br>
+An event of exiting an occupational relationship with an employer after a qualifying time
+period.
+<br>
+<br>
+<B> RFN {REC_FILE_NUMBER}:</B>
+=
+<br>
+A permanent number assigned to a record that uniquely identifies it within a known file.
+<br>
+<br>
+<B> RIN {REC_ID_NUMBER}:</B>
+=
+<br>
+A number assigned to a record by an originating automated system that can be used by a
+receiving system to report results pertaining to that record.
+<br>
+ 
+<br>
+<B> ROLE {ROLE}:</B>
+=
+<br>
+A name given to a role played by an individual in connection with an event.
+<br>
+<br>
+<B> SEX {SEX}:</B>
+=
+<br>
+Indicates the sex of an individual--male or female.
+<br>
+<br>
+<B> SLGC {SEALING_CHILD}:</B>
+=
+<br>
+A religious event pertaining to the sealing of a child to his or her parents in an LDS temple
+ceremony.
+<br>
+<br>
+<B> SLGS {SEALING_SPOUSE}:</B>
+=
+<br>
+A religious event pertaining to the sealing of a husband and wife in an LDS temple ceremony.
+<br>
+<br>
+<B> SOUR {SOURCE}:</B>
+=
+<br>
+The initial or original material from which information was obtained.
+<br>
+<br>
+<B> SPFX {SURN_PREFIX}:</B>
+=
+<br>
+A name piece used as a non-indexing pre-part of a surname.
+<br>
+<br>
+<B> SSN {SOC_SEC_NUMBER}:</B>
+=
+<br>
+A number assigned by the United States Social Security Administration. Used for tax
+identification purposes.
+<br>
+<br>
+<B> STAE {STATE}:</B>
+=
+<br>
+A geographical division of a larger jurisdictional area, such as a State within the United States
+of America.
+<br>
+<br>
+<B> STAT {STATUS}:</B>
+=
+<br>
+An assessment of the state or condition of something.
+<br>
+<br>
+<B> SUBM {SUBMITTER}:</B>
+=
+<br>
+An individual or organization who contributes genealogical data to a file or transfers it to
+someone else.
+<br>
+<br>
+<B> SUBN {SUBMISSION}:</B>
+=
+<br>
+  Pertains to a collection of data issued for processing.
+<br>
+<br>
+<B> SURN {SURNAME}:</B>
+=
+<br>
+A family name passed on or used by members of a family.
+<br>
+<br>
+<B> TEMP {TEMPLE}:</B>
+=
+<br>
+The name or code that represents the name a temple of the LDS Church.
+<br>
+<br>
+<B> TEXT {TEXT}:</B>
+=
+<br>
+The exact wording found in an original source document.
+<br>
+<br>
+<B> TIME {TIME}:</B>
+= 
+<br>
+A time value in a 24-hour clock format, including hours, minutes, and optional seconds,
+separated by a colon (:). Fractions of seconds are shown in decimal notation.
+<br>
+<br>
+<B> </B>
+<B> TITL {TITLE}:</B>
+=
+<br>
+A description of a specific writing or other work, such as the title of a book when used in a
+source context, or a formal designation used by an individual in connection with positions of
+royalty or other social status, such as Grand Duke.
+<br>
+<br>
+<B> TRLR {TRAILER}:</B>
+=
+<br>
+At level 0, specifies the end of a GEDCOM transmission.
+<br>
+<br>
+<B> TYPE {TYPE}:</B>
+=
+<br>
+A further qualification to the meaning of the associated superior tag. The value does not have
+any computer processing reliability. It is more in the form of a short one or two word note
+that should be displayed any time the associated data is displayed.
+<br>
+<br>
+<B> VERS {VERSION}:</B>
+=
+<br>
+Indicates which version of a product, item, or publication is being used or referenced.
+<br>
+<br>
+<B> WIFE {WIFE}:</B>
+=
+<br>
+   An individual in the role as a mother and/or married woman.
+<br>
+<br>
+<B> WILL {WILL}:</B>
+=
+<br>
+A legal document treated as an event, by which a person disposes of his or her estate, to take
+effect after death. The event date is the date the will was signed while the person was alive.
+(See also <a href=#PROB>PROBate</a>.)
+<p>
+<a href="55gctoc.htm">[Contents]</a>
+<a href="../genweb.html">[Home]</a>
+<a href="mailto:pbmcbride@rcn.com">[Mail]</a>
+</BODY></html><!--Rootsweb footer-->
+
+<style>
+.rwFooter {
+    font-family:  Arial,Helvetica,Geneva,sans-serif;
+    font-size:  10pt;
+    text-align: center;
+    clear: both;
+}
+</style>
+<br>
+<div class="rwLayoutTopBottomAd">
+  <center><div id='rwsites-ldr-bottom'></div></center>
+</div>
+<div id="footer" class="footer"><div class="rwFooter" id="footer_div">
+        <hr width="90%" size="1" noshade style="text-align:center; margin: 20px auto;">
+        <p>
+                <font size="-2" face="Verdana, Arial, Helvetica, sans-serif">
+                        RootsWeb is funded and supported by
+                        <a href="https://www.ancestry.com/s33216/t10989/grid1005/rd.ashx">Ancestry.com</a> and our loyal RootsWeb community.
+                        <a href="https://home.rootsweb.com/support">Learn more.</a>
+                        <br><br>
+                        <a id="Ftr_About_Link" href="https://corporate.ancestry.com/">About Us</a>&nbsp|&nbsp<a id="Ftr_ContactUs_Link" href="https://support.rootsweb.com/s/contactsupport">Contact Us</a>&nbsp|&nbsp<a id='Ftr_Blog_Link' href='https:\/\/rootsweb.blog'>Rootsweb Blog</a>&nbsp|&nbsp<a id="Ftr_Legal_Link" href="https://corporate.ancestry.com/about-ancestry/legal/">Copyright</a>&nbsp|&nbsp<a href="https://useraccount.rootsweb.com/websites/reportInappropriateWebsite?url=/~pmcbride/gedcom/55gcappa.htm">Report Inappropriate Material</a>
+                        <br>
+                        <a id="Ftr_CorporateInfo_Link" href="https://www.ancestry.com/corporate/">Corporate Information</a>&nbsp|&nbsp<a id="Ftr_Privacy_Link" href="https://www.ancestry.com/cs/legal/privacyphilosophy">Privacy</a>&nbsp|&nbsp<a id="Ftr_TermsAndConditions_Link" href="https://www.ancestry.com/cs/legal/termsandconditions">Terms and Conditions</a>
+                </font>
+        </p>
+</div>
+<script type="text/javascript">
+  var utag_data = {
+    page_name:'ancestry rootsweb : hostedsites : pmcbride'
+  };
+</script>
+<!-- <script type="text/javascript" src="https://www.ancestrycdn.com/aa-rw-home/504/scripts/adHelper.js"></script> -->
+
+<!-- Adding in the new ad code -->
+<!-- AdBridg, GPT, Amazon library inclusion -->
+<script async type="text/javascript" src="https://prod.adspsp.com/adb.5781260.min.js"></script>
+<script async type="text/javascript" src="https://securepubads.g.doubleclick.net/tag/js/gpt.js"></script>
+<script async type="text/javascript" src="https://c.amazon-adsystem.com/aax2/apstag.js"></script>
+
+<script type="text/javascript">
+  (function(a,b,c,d){ var env='prod'; try{ var domain = window.document.location.hostname.split('.'); domain = (domain.length > 2) ? domain[1] : domain[0]; if(/loc/.test(domain) || /dev/.test(domain)){ env = 'dev'; } else if (/stage/.test(domain)){ env = 'qa'; } }catch(e){} a='//tags.tiqcdn.com/utag/ancestry/rootsweb/'+ env +'/utag.js'; b=document;c='script';d=b.createElement(c);d.src=a;d.type='text/java'+c;d.async=true;a=b.getElementsByTagName(c)[0]; a.parentNode.insertBefore(d,a) })();
+</script>
+
+

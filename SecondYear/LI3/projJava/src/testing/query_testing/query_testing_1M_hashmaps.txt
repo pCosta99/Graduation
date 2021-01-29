@@ -1,0 +1,78 @@
+Query 5 took 0.0028821 seconds using an HashMap!
+Query 5 took 2.677E-4 seconds using an HashMap!
+Query 5 took 1.489E-4 seconds using an HashMap!
+Query 5 took 1.921E-4 seconds using an HashMap!
+Query 5 took 1.39E-4 seconds using an HashMap!
+Query 5 took 3.734E-4 seconds using an HashMap!
+Query 5 took 1.494E-4 seconds using an HashMap!
+Query 5 took 1.475E-4 seconds using an HashMap!
+Query 5 took 1.463E-4 seconds using an HashMap!
+Query 5 took 1.176E-4 seconds using an HashMap!
+Query 5 took on average 4.5640000000000003E-4 seconds using an HashMap!
+
+
+-------------------------------------------------------------------------
+
+
+Query 6 took 1.6941459 seconds using an HashMap!
+Query 6 took 1.2003598 seconds using an HashMap!
+Query 6 took 1.2872594 seconds using an HashMap!
+Query 6 took 1.3371516 seconds using an HashMap!
+Query 6 took 1.3439454 seconds using an HashMap!
+Query 6 took 1.3483311 seconds using an HashMap!
+Query 6 took 1.2286482 seconds using an HashMap!
+Query 6 took 1.3018469 seconds using an HashMap!
+Query 6 took 1.3921786 seconds using an HashMap!
+Query 6 took 1.2818248 seconds using an HashMap!
+Query 6 took on average 1.34156917 seconds using an HashMap!
+
+
+-------------------------------------------------------------------------
+
+
+Query 7 took 0.0110258 seconds using an HashMap!
+Query 7 took 0.0068671 seconds using an HashMap!
+Query 7 took 0.0065139 seconds using an HashMap!
+Query 7 took 0.0065857 seconds using an HashMap!
+Query 7 took 0.0065172 seconds using an HashMap!
+Query 7 took 0.0062611 seconds using an HashMap!
+Query 7 took 0.0064727 seconds using an HashMap!
+Query 7 took 0.0065323 seconds using an HashMap!
+Query 7 took 0.0066104 seconds using an HashMap!
+Query 7 took 0.006803 seconds using an HashMap!
+Query 7 took on average 0.00701892 seconds using an HashMap!
+
+
+-------------------------------------------------------------------------
+
+
+Query 8 took 0.0179724 seconds using an HashMap!
+Query 8 took 0.0141975 seconds using an HashMap!
+Query 8 took 0.0121614 seconds using an HashMap!
+Query 8 took 0.011318 seconds using an HashMap!
+Query 8 took 0.0105847 seconds using an HashMap!
+Query 8 took 0.0107896 seconds using an HashMap!
+Query 8 took 0.0098189 seconds using an HashMap!
+Query 8 took 0.0077986 seconds using an HashMap!
+Query 8 took 0.007581 seconds using an HashMap!
+Query 8 took 0.0084129 seconds using an HashMap!
+Query 8 took on average 0.0110635 seconds using an HashMap!
+
+
+-------------------------------------------------------------------------
+
+
+Query 9 took 0.0235999 seconds using an HashMap!
+Query 9 took 0.0160239 seconds using an HashMap!
+Query 9 took 0.0097246 seconds using an HashMap!
+Query 9 took 0.0081947 seconds using an HashMap!
+Query 9 took 0.0098085 seconds using an HashMap!
+Query 9 took 0.0084715 seconds using an HashMap!
+Query 9 took 0.0077795 seconds using an HashMap!
+Query 9 took 0.0072153 seconds using an HashMap!
+Query 9 took 0.0080897 seconds using an HashMap!
+Query 9 took 0.0075343 seconds using an HashMap!
+Query 9 took on average 0.01064419 seconds using an HashMap!
+
+
+-------------------------------------------------------------------------

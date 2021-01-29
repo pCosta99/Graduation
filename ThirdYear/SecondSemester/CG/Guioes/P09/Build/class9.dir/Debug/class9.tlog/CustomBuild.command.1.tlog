@@ -1,0 +1,10 @@
+^C:\USERS\JOAN\DOWNLOADS\CODE9\CMAKELISTS.TXT
+setlocal
+C:\Users\joan\Downloads\cmake-3.17.0-rc1-win64-x64\cmake-3.17.0-rc1-win64-x64\bin\cmake.exe -SC:/Users/joan/Downloads/code9 -BC:/Users/joan/Downloads/code9/Build --check-stamp-file C:/Users/joan/Downloads/code9/Build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

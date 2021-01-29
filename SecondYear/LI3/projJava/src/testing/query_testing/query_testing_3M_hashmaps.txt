@@ -1,0 +1,78 @@
+Query 5 took 0.0032529 seconds using an TreeMap!
+Query 5 took 4.648E-4 seconds using an TreeMap!
+Query 5 took 4.252E-4 seconds using an TreeMap!
+Query 5 took 3.662E-4 seconds using an TreeMap!
+Query 5 took 3.626E-4 seconds using an TreeMap!
+Query 5 took 3.038E-4 seconds using an TreeMap!
+Query 5 took 2.956E-4 seconds using an TreeMap!
+Query 5 took 2.793E-4 seconds using an TreeMap!
+Query 5 took 2.633E-4 seconds using an TreeMap!
+Query 5 took 2.674E-4 seconds using an TreeMap!
+Query 5 took on average 6.2811E-4 seconds using an TreeMap!
+
+
+-------------------------------------------------------------------------
+
+
+Query 6 took 4.6655322 seconds using an TreeMap!
+Query 6 took 3.8647366 seconds using an TreeMap!
+Query 6 took 3.9557157 seconds using an TreeMap!
+Query 6 took 4.1586599 seconds using an TreeMap!
+Query 6 took 4.0005262 seconds using an TreeMap!
+Query 6 took 3.9044379 seconds using an TreeMap!
+Query 6 took 3.9671093 seconds using an TreeMap!
+Query 6 took 3.9456536 seconds using an TreeMap!
+Query 6 took 4.0333622 seconds using an TreeMap!
+Query 6 took 3.6222331 seconds using an TreeMap!
+Query 6 took on average 4.011796670000001 seconds using an TreeMap!
+
+
+-------------------------------------------------------------------------
+
+
+Query 7 took 0.0125155 seconds using an TreeMap!
+Query 7 took 0.0082692 seconds using an TreeMap!
+Query 7 took 0.0082841 seconds using an TreeMap!
+Query 7 took 0.0082346 seconds using an TreeMap!
+Query 7 took 0.00764 seconds using an TreeMap!
+Query 7 took 0.0074526 seconds using an TreeMap!
+Query 7 took 0.0073581 seconds using an TreeMap!
+Query 7 took 0.0074027 seconds using an TreeMap!
+Query 7 took 0.0074449 seconds using an TreeMap!
+Query 7 took 0.0073907 seconds using an TreeMap!
+Query 7 took on average 0.008199240000000002 seconds using an TreeMap!
+
+
+-------------------------------------------------------------------------
+
+
+Query 8 took 0.0256926 seconds using an TreeMap!
+Query 8 took 0.0182818 seconds using an TreeMap!
+Query 8 took 0.0139311 seconds using an TreeMap!
+Query 8 took 0.0164091 seconds using an TreeMap!
+Query 8 took 0.0111831 seconds using an TreeMap!
+Query 8 took 0.0104576 seconds using an TreeMap!
+Query 8 took 0.0124334 seconds using an TreeMap!
+Query 8 took 0.0146707 seconds using an TreeMap!
+Query 8 took 0.0119767 seconds using an TreeMap!
+Query 8 took 0.0142807 seconds using an TreeMap!
+Query 8 took on average 0.01493168 seconds using an TreeMap!
+
+
+-------------------------------------------------------------------------
+
+
+Query 9 took 0.026097 seconds using an TreeMap!
+Query 9 took 0.0155867 seconds using an TreeMap!
+Query 9 took 0.0158237 seconds using an TreeMap!
+Query 9 took 0.0100774 seconds using an TreeMap!
+Query 9 took 0.0090718 seconds using an TreeMap!
+Query 9 took 0.0091076 seconds using an TreeMap!
+Query 9 took 0.0090162 seconds using an TreeMap!
+Query 9 took 0.0091735 seconds using an TreeMap!
+Query 9 took 0.0096369 seconds using an TreeMap!
+Query 9 took 0.0097175 seconds using an TreeMap!
+Query 9 took on average 0.012330830000000003 seconds using an TreeMap!
+
+
+-------------------------------------------------------------------------

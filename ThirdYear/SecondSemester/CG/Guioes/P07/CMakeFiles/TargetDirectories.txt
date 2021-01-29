@@ -1,0 +1,3 @@
+/home/ruiazevedo/Desktop/CG/Guioes/P07/CMakeFiles/rebuild_cache.dir
+/home/ruiazevedo/Desktop/CG/Guioes/P07/CMakeFiles/class6.dir
+/home/ruiazevedo/Desktop/CG/Guioes/P07/CMakeFiles/edit_cache.dir

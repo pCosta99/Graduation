@@ -1,0 +1,57 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+
+\title{Relatório sobre gerador de estados aleatorios}
+\date{03-06-2018}
+\author{Pedro Costa, Pedro Barbosa, Ricardo Veloso}
+
+\begin{document}
+  \pagenumbering{gobble}
+  \maketitle
+  \newpage
+  \pagenumbering{arabic}
+
+\section{Gerador}
+
+Nesta única secção abordam-se vários tópicos relativos ao método de gerar estados aleatórios com uma única solução.
+
+\subsection{Falhas}
+
+Devido a problemas de eficiência (conjuntamente com problemas de tempo) não nos foi possível gerar estados com casas bloqueadas.
+No entanto, fazer esta abordagem não seria problemático, abordaremos este tópico mais tarde.
+
+\subsection{Ponto de partida}
+
+Antes de mais, convém referir que o nosso solver não nos indica apenas uma solução. O solver que desenvolvemos é capaz de determinar
+todas as soluções que um estado contém. Desta maneira, a primeira coisa que fazemos é criar um estado vazio, com as dimensões introduzidas
+pelo utilizador e, a partir daí, obtemos todas as soluções existentes para esse estado. Assim, temos um array com X estados todos diferentes, 
+de onde iremos escolher um (também ao acaso). Isto permite tornar a geração mais aleatória. 
+
+\subsection{Estados fáceis}
+
+Há uma ligeira diferença na abordagem para gerar um estado fácil e um estado difícil. 
+Quanto a um estado fácil, a nossa decisão foi partir de um estado completo (como referido anteriormente, escolhemos um de entre as várias 
+resoluções possíveis do vazio com o tamanho correto) e desconstruí-lo até um certo ponto (60 por cento do estado original). Para este efeito, 
+tudo o que fazemos é simplesmente retirar uma casa ao acaso e verificar se o estado continua a ser resolúvel através, unicamente, de ajudas lógicas.
+Fazendo isto até atingir o ponto de desconstrução desejado, conseguimos gerar estados fáceis conforme era suposto.
+
+\subsection{Estados dificeis}
+
+Quantos aos estados difíceis, tal como referimos, a abordagem é ligeiramente diferente. Mais uma vez partimos de um estado vazio e das suas possíveis
+soluções, mas, desta vez, o algoritmo é um pouco mais recorrente à força bruta. Isto significa que sorteamos várias posições do estado completo (também este
+escolhido aleatoriamente, como mencionado na subsecção 1.2) e atribuímo-las ao estado vazio. De seguida, utilizamos o nosso solver para verificar se o estado gerado
+tem uma única solução. Caso isto se verifique retornamos este estado, caso contrário repetimos o processo até obter um estado de solução única.
+Para estados difíceis, o estado gerado apenas contém 10 por cento da solução final.
+
+
+\subsection{Pormenores que aumentam o fator aleatório do nosso gerador}
+\begin{itemize}
+	\item Utilizar uma das várias possíveis soluções de um estado vazio, escolhida também aleatoriamente.
+	\item Sempre que sorteamos uma casa para preencher, na verdade, sorteamos 5 e escolhemos aleatoriamente uma dessas. 
+	\item A cada vez que se volta a sortear o estado, caso não se obtenha um válido numa tentativa, volta-se a escolher aleatoriamente dentro das possíveis soluções.
+\end{itemize}
+
+\subsection{Como implementar bloqueadas}
+Após criar o estado com solução única seria apenas necessário colocar um certo número de bloqueadas aleatoriamente até que se obtesse uma solução única.
+
+\end{document}

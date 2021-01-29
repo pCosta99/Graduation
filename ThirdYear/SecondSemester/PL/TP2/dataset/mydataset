@@ -1,0 +1,24 @@
+0 @I1@ INDI
+1 NAME Rui Azevedo 
+2 GIVN Rui Azevedo 
+2 NICK Mr. Mojo
+1 SEX M
+1 BIRT
+2 DATE 19 May 1995
+2 PLAC Braga, Portugal
+1 CHR
+2 DATE 20 May 1995
+3 TIME 18:20:20
+0 @I2@ INDI
+1 NAME Etienne Costa
+2 GIVN Etienne Costa
+1 SEX M
+1 CHR
+2 PLAC Luanda, Angola
+0 @I2@ INDI
+1 NAME Pedro Costa
+1 GIVN Pedro
+0 @F1@ FAM
+1 HUSB @I1@
+1 WIFE @I2@
+0 TRLR

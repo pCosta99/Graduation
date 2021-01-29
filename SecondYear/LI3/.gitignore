@@ -1,0 +1,9 @@
+#ignore Vendas_5M and Vendas_Sample
+Vendas_5M.txt
+Vendas_3M.txt
+Vendas_Sample.txt
+*.dat
+Stats
+*.class
+**/.idea
+**/Performance_Mode

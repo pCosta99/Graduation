@@ -1,0 +1,3 @@
+/home/ruiazevedo/Desktop/P12/CMakeFiles/rebuild_cache.dir
+/home/ruiazevedo/Desktop/P12/CMakeFiles/class12.dir
+/home/ruiazevedo/Desktop/P12/CMakeFiles/edit_cache.dir

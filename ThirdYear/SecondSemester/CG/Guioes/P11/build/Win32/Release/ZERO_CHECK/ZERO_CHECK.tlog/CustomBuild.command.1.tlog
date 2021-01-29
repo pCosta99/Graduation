@@ -1,0 +1,10 @@
+^E:\UM\3\CG\P11\BUILD\CMAKEFILES\640FC8F02A91507E8E3659FBDEB30631\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SE:/UM/3/CG/P11 -BE:/UM/3/CG/P11/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file E:/UM/3/CG/P11/build/class11.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

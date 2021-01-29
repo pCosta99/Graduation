@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane fx:id="mainWindow" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GUI.MainWindowController">
+   <children>
+      <AnchorPane fx:id="dynamicWindow" layoutX="102.0" prefHeight="509.0" prefWidth="700.0" />
+      <AnchorPane prefHeight="600.0" prefWidth="100.0">
+         <children>
+            <VBox maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="600.0" prefWidth="100.0">
+               <children>
+                  <HBox prefHeight="100.0" prefWidth="200.0" style="-fx-border-color: black; -fx-border-width: 1;">
+                     <children>
+                        <ImageView fx:id="biblioteca" fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../icons/music.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </HBox>
+                  <HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="102.0" prefWidth="102.0" style="-fx-border-color: black;">
+                     <children>
+                        <ImageView fx:id="upload" fitHeight="102.0" fitWidth="100.0" layoutX="5.0" layoutY="5.0" opacity="0.33" pickOnBounds="true" preserveRatio="true" x="5.0" y="5.0">
+                           <image>
+                              <Image url="@../icons/upload.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </HBox>
+                  <HBox prefHeight="100.0" prefWidth="200.0" style="-fx-border-color: black;">
+                     <children>
+                        <ImageView fx:id="search" fitHeight="100.0" fitWidth="100.0" onMouseClicked="#search" opacity="0.33" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../icons/search.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </HBox>
+                  <HBox prefHeight="100.0" prefWidth="200.0" style="-fx-border-color: black;">
+                     <children>
+                        <ImageView fx:id="settings" fitHeight="100.0" fitWidth="100.0" onMouseClicked="#settings" opacity="0.33" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../icons/settings.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </HBox>
+                  <HBox prefHeight="100.0" prefWidth="200.0" style="-fx-border-color: black;">
+                     <children>
+                        <ImageView fx:id="userPic" fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true" />
+                     </children>
+                  </HBox>
+                  <HBox prefHeight="100.0" prefWidth="200.0" style="-fx-border-color: black;">
+                     <children>
+                        <ImageView fx:id="logout" fitHeight="100.0" fitWidth="100.0" onMouseClicked="#logout" opacity="0.33" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../icons/power.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </HBox>
+               </children>
+            </VBox>
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="playingBar" layoutX="102.0" layoutY="512.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="100.0" prefWidth="700.0" />
+   </children>
+</AnchorPane>
