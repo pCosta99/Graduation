@@ -9,7 +9,7 @@ Collection of projects and repositories that I made through the completion of my
 - Second Year
     - LI3 -
     - SO -
-    - CP :heart: -
+    - :heart: CP :heart: -
     - POO -
 
 - Third Year
